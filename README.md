@@ -13,6 +13,14 @@ Text preprocessing for tweets data is done as follows :
 9. Replace abbreviation words
 10. Remove stopwords
 
+### 1.1 Prerequisites
+- Pandas
+- NLTK
+- Sastrawi
+  
+  `pip install sastrawi`
+
+
 ## 2. Lexicon Dictionary
 The lexicon dictionary that used in this implementation is the combination from a few sources :
 1. Opinion Lexicon :
