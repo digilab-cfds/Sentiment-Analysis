@@ -14,7 +14,7 @@ Text preprocessing for tweets data is done as follows :
 10. Remove stopwords
 
 ## 2. Lexicon Expansion
-The lexicon dictionary that used in this implementation is from a few sources :
+The lexicon dictionary that used in this implementation is the combination from a few sources :
 1. Opinion Lexicon :
 A list of English positive and negative opinion words or sentiment words (around 6800 words).(Hu and Liu, KDD-2004).
 In this implementation, the Opinion Lexicon are translated to Indonesian.
@@ -24,7 +24,7 @@ https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
 List of Opinion Words (positive/negative) in Bahasa Indonesia. Originated by Liu's Opinion Words list with modification/translation to Indonesia.
 https://github.com/masdevid/ID-OpinionWords 
 
-3. Indonesian sentiment words
+3. Indonesian sentiment words :
 The list of Indonesian sentiment words from a research paper [1].
 https://github.com/masdevid/sentistrength_id
 
