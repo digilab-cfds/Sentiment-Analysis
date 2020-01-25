@@ -13,8 +13,7 @@ def get_abbreviated_dict():
 
 def regex_filter(text):
     stripped = re.sub(combined_pat, '', text)
-    letters_only = re.sub(r'[^\w\s-]','', stripped)
-    lower_case = letters_only.lower()
+    lower_case = stripped.lower()
     repeated_char = re.sub(r'([a-z])\1+', r'\1', lower_case)
     return " ".join(repeated_char.split())
 
@@ -42,7 +41,7 @@ remove_links = r'https?://[A-Za-z0-9./]+'
 remove_retweets = r'RT' 
 remove_hashtags = r'#[A-Za-z0-9_]+' 
 remove_pics = r'pic.twitter.com/[A-Za-z0-9]+'
-letters_only = r"[^A-Za-z'\s]"
+letters_only = r'[^\w\s-]'
 combined_pat = r'|'.join((remove_mentions,remove_links,remove_retweets,remove_hashtags,remove_pics, letters_only))
 
 
