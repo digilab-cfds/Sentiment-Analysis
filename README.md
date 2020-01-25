@@ -13,7 +13,7 @@ Text preprocessing for tweets data is done as follows :
 9. Replace abbreviation words
 10. Remove stopwords
 
-## 2. Lexicon Expansion
+## 2. Lexicon Dictionary
 The lexicon dictionary that used in this implementation is the combination from a few sources :
 1. Opinion Lexicon :
 A list of English positive and negative opinion words or sentiment words (around 6800 words).(Hu and Liu, KDD-2004).
